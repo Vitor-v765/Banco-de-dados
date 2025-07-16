@@ -84,9 +84,3 @@ CREATE TABLE TBL_Item_Venda (
     FOREIGN KEY (ID_Produto) REFERENCES TBL_Produto(ID_Produto)
 );
 
-
-CREATE INDEX idx_cliente_nome ON TBL_Cliente(Nome_Cliente);
-CREATE INDEX idx_cliente_cpf ON TBL_Cliente(CPF);
-CREATE INDEX idx_produto_nome ON TBL_Produto(Nome_Produto);
-CREATE INDEX idx_venda_data ON TBL_Venda(Data_Hora);
-CREATE INDEX idx_venda_cliente ON TBL_Venda(ID_Cliente);
