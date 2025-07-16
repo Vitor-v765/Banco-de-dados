@@ -53,7 +53,7 @@ CREATE TABLE TBL_Colaborador (
     FOREIGN KEY (ID_Usuario) REFERENCES TBL_Usuario(ID_Usuario)
 );
 
--- Tabela de Produto
+
 CREATE TABLE TBL_Produto (
     ID_Produto INT PRIMARY KEY AUTO_INCREMENT,
     Nome_Produto VARCHAR(45) NOT NULL,
